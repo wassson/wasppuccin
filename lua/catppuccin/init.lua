@@ -1,3 +1,4 @@
+---@diagnostic disable: missing-fields, inject-field
 local is_vim = vim.fn.has "nvim" ~= 1
 if is_vim then require "catppuccin.lib.vim" end
 

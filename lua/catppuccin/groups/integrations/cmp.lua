@@ -5,7 +5,7 @@ function M.get()
 		CmpItemAbbr = { fg = C.overlay2 },
 		CmpItemAbbrDeprecated = { fg = C.overlay0, style = { "strikethrough" } },
 		CmpItemKind = { fg = C.blue },
-		CmpItemMenu = { fg = C.text },
+		CmpItemMenu = { fg = C.surface2 },
 		CmpItemAbbrMatch = { fg = C.text, style = { "bold" } },
 		CmpItemAbbrMatchFuzzy = { fg = C.text, style = { "bold" } },
 
