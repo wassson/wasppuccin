@@ -8,7 +8,7 @@ function M.get()
 	if O.transparent_background then
 		return {
 			GitSignsAdd = { fg = C.green }, -- diff mode: Added line |diff.txt|
-			GitSignsChange = { fg = C.yellow }, -- diff mode: Changed line |diff.txt|
+			GitSignsChange = { fg = C.peach }, -- diff mode: Changed line |diff.txt|
 			GitSignsDelete = { fg = C.red }, -- diff mode: Deleted line |diff.txt|
 
 			GitSignsCurrentLineBlame = { fg = C.surface1 },
@@ -39,7 +39,7 @@ function M.get()
 	else
 		return {
 			GitSignsAdd = { fg = C.green }, -- diff mode: Added line |diff.txt|
-			GitSignsChange = { fg = C.yellow }, -- diff mode: Changed line |diff.txt|
+			GitSignsChange = { fg = C.peach }, -- diff mode: Changed line |diff.txt|
 			GitSignsDelete = { fg = C.red }, -- diff mode: Deleted line |diff.txt|
 
 			GitSignsCurrentLineBlame = { fg = C.surface1 },
